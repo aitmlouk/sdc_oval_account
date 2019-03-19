@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Télédeclaration TVA',
+    'name': 'Accounting TVA',
     'version': '1.0',
     'author': 'Ait-Mlouk Addi',
     'website': 'https://www.sdatacave.com',

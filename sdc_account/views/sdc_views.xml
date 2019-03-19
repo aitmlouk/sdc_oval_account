@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-
             <!--Tree view types liasse fiscal-->
             <record model="ir.ui.view" id="type_liasse_tree_view">
                 <field name="name">type.liasse.tree</field>

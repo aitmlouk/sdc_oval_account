@@ -205,16 +205,3 @@ class AccountBankStatement(models.Model):
     
     tva_amount = fields.Float(compute='_get_tva',string='TVA', readonly=True, store=True)
     
-    
-    
-    @api.multi
-    @api.depends('move_line_ids')
-    def _get_tva(self):  
-        data =[]
-        for t in self.move_line_ids:
-            print('------move_line_ids---------')
-            print(t)
-            print(t.name)
-            print('------------------------------')  
-        return True    
-    
